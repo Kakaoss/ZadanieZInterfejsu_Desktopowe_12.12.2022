@@ -6,7 +6,19 @@
         xmlns:local="clr-namespace:ZadanieZInterfejsu_Desktopowe_12._12._2022"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Background="Gray">
+        <DockPanel>
+            <WrapPanel HorizontalAlignment="Center" Margin="20px" DockPanel.Dock="Top">
+                <Label Content="Travelling Ticketing System" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold"/>
+            </WrapPanel>
+        
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Left" DockPanel.Dock="Left">
+                <Label Content="Ticket Type"/>
+                <Border Background="Black"></Border>
+                <RadioButton>Standard</RadioButton>
+                <RadioButton>Single Ticket</RadioButton>
+            </WrapPanel>
+            
+        </DockPanel>
     </Grid>
 </Window>
